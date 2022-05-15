@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #86e6dd9a;
+    min-height: 100vh;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+}
+
+.Projectdetails{
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    line-height: 30px;
+    font-weight: 300;
+    margin-bottom: 0px;
+    padding: 0px 0px 0px ;
+}
+
+.inner{
+    width: 50%;
+    background-color: white;
+    float: right;
+    padding: 35px 50px 125px 60px;
+    margin: 0px;
+  
+    
+
+}
+
+.text{
+  text-align: justify;
+}
+
+h1{
+    margin: 25px;
+    background: rgb(0, 0, 0);
+    border: 10px solid black;
+    color: white;
+    outline-offset: 5px;
+    align-items: left;
+    text-align: center;
+}
+
+.image-video{
+    max-width: 0%;
+    background-repeat: no-repeat;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    padding:25px 0px 15px 40px ;
+    background-size: contain;
+   
+    
+}
+
+.v{
+    padding: 35px 0px px 40px;
+}
+
+
+
+
+@media  screen and (max-width: 1200px){
+    .inner{
+        padding: 80px;
+    }
+
+}
+    
+
+@media  screen and (max-width: 1000px){
+    .image-video{
+        background-size: 100%;
+        padding: 100px 0px ;
+    }
+     
+    .v{
+        
+        padding: 100px 950px ;
+    }
+    .inner{
+        width:100%;
+    }
+    .Projectdetails{
+        padding: 100px 0px ;
+    }
+
+}
+    
+@media  screen and (max-width: 600px){
+    .inner{
+        padding: 0;
+    }
+
+
+
+    .inner{
+        padding: 60px;
+    }
+
+}
